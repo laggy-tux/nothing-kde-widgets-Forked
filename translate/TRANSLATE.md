@@ -84,7 +84,7 @@ Commit your `.po` file and open a PR. That's it — the maintainer handles the r
 | `date` | 6 | [template.pot](date/template.pot) |
 | `media` | 6 | [template.pot](media/template.pot) |
 | `photo` | 33 | [template.pot](photo/template.pot) |
-| `weather` | 19 | [template.pot](weather/template.pot) |
+| `weather` | 59 | [template.pot](weather/template.pot) |
 
 ## For Maintainers
 

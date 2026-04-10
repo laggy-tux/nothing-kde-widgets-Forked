@@ -33,7 +33,7 @@ PlasmoidItem {
     property string currentTemp: "--"
     property string highTemp: "--"
     property string lowTemp: "--"
-    property string condition: "Loading..."
+    property string condition: i18n("Loading...")
     property int weatherCode: 0
     property string weatherIconPath: getWeatherIcon(0)
 
@@ -111,42 +111,42 @@ PlasmoidItem {
 
     // Weather condition text mapping
     function getWeatherCondition(code) {
-        if (code === 0) return "Clear"
-        else if (code === 1) return "Mainly Clear"
-        else if (code === 2) return "Partly Cloudy"
-        else if (code === 3) return "Overcast"
-        else if (code === 45) return "Fog"
-        else if (code === 48) return "Depositing Rime Fog"
-        else if (code === 51) return "Light Drizzle"
-        else if (code === 53) return "Drizzle"
-        else if (code === 55) return "Dense Drizzle"
-        else if (code === 56) return "Light Freezing Drizzle"
-        else if (code === 57) return "Freezing Drizzle"
-        else if (code === 61) return "Slight Rain"
-        else if (code === 63) return "Rain"
-        else if (code === 65) return "Heavy Rain"
-        else if (code === 66) return "Light Freezing Rain"
-        else if (code === 67) return "Freezing Rain"
-        else if (code === 71) return "Slight Snow"
-        else if (code === 73) return "Snow"
-        else if (code === 75) return "Heavy Snow"
-        else if (code === 77) return "Snow Grains"
-        else if (code === 80) return "Slight Rain Showers"
-        else if (code === 81) return "Rain Showers"
-        else if (code === 82) return "Violent Rain Showers"
-        else if (code === 85) return "Slight Snow Showers"
-        else if (code === 86) return "Heavy Snow Showers"
-        else if (code === 95) return "Thunderstorm"
-        else if (code === 96) return "Thunderstorm with Hail"
-        else if (code === 99) return "Heavy Thunderstorm with Hail"
-        return "Unknown"
+        if (code === 0) return i18n("Clear")
+        else if (code === 1) return i18n("Mainly Clear")
+        else if (code === 2) return i18n("Partly Cloudy")
+        else if (code === 3) return i18n("Overcast")
+        else if (code === 45) return i18n("Fog")
+        else if (code === 48) return i18n("Depositing Rime Fog")
+        else if (code === 51) return i18n("Light Drizzle")
+        else if (code === 53) return i18n("Drizzle")
+        else if (code === 55) return i18n("Dense Drizzle")
+        else if (code === 56) return i18n("Light Freezing Drizzle")
+        else if (code === 57) return i18n("Freezing Drizzle")
+        else if (code === 61) return i18n("Slight Rain")
+        else if (code === 63) return i18n("Rain")
+        else if (code === 65) return i18n("Heavy Rain")
+        else if (code === 66) return i18n("Light Freezing Rain")
+        else if (code === 67) return i18n("Freezing Rain")
+        else if (code === 71) return i18n("Slight Snow")
+        else if (code === 73) return i18n("Snow")
+        else if (code === 75) return i18n("Heavy Snow")
+        else if (code === 77) return i18n("Snow Grains")
+        else if (code === 80) return i18n("Slight Rain Showers")
+        else if (code === 81) return i18n("Rain Showers")
+        else if (code === 82) return i18n("Violent Rain Showers")
+        else if (code === 85) return i18n("Slight Snow Showers")
+        else if (code === 86) return i18n("Heavy Snow Showers")
+        else if (code === 95) return i18n("Thunderstorm")
+        else if (code === 96) return i18n("Thunderstorm with Hail")
+        else if (code === 99) return i18n("Heavy Thunderstorm with Hail")
+        return i18n("Unknown")
     }
 
     // Get day name for forecast
     function getDayName(daysAhead) {
         var date = new Date()
         date.setDate(date.getDate() + daysAhead)
-        var dayNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
+        var dayNames = [i18n("SUN"), i18n("MON"), i18n("TUE"), i18n("WED"), i18n("THU"), i18n("FRI"), i18n("SAT")]
         return dayNames[date.getDay()]
     }
 
@@ -282,10 +282,10 @@ PlasmoidItem {
                             longitude = best.longitude
                             fetchWeatherData()
                         } else {
-                            errorMessage = "Location not found"
+                            errorMessage = i18n("Location not found")
                             isLoading = false
                             currentTemp = "--"
-                            condition = "Location not found"
+                            condition = i18n("Location not found")
                         }
                     } catch (e) {
                         errorMessage = "Error parsing location data"

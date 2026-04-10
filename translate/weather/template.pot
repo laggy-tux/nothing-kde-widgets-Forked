@@ -9,7 +9,7 @@ msgstr ""
 "2.0\n"
 "Report-Msgid-Bugs-To: https://github.com/jaxparrow07/nothing-kde-widgets/"
 "issues\n"
-"POT-Creation-Date: 2026-02-13 00:57+0530\n"
+"POT-Creation-Date: 2026-04-10 17:06+0000\n"
 "PO-Revision-Date: 2025-01-01 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,85 +18,248 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: packages/weather/contents/config/config.qml:6
-msgid "General"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:20
-msgid "Style:"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:53
-#: packages/weather/contents/ui/VariantSelector.qml:34
-msgid "Full"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:89
-#: packages/weather/contents/ui/VariantSelector.qml:35
-msgid "Circular"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:125
-#: packages/weather/contents/ui/VariantSelector.qml:36
-msgid "Circle Pages"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:148
-msgid "Location:"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:154
-msgid "e.g., New York, Chennai, Villupuram"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:160
-msgid ""
-"Enter a city name for weather information. The widget will automatically "
-"find the coordinates."
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:177
-msgid "Temperature Unit:"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:183
-msgid "Celsius (°C)"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:183
-msgid "Fahrenheit (°F)"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:189
-msgid "Choose between Celsius and Fahrenheit for temperature display."
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:206
-msgid "Theme:"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:212
-msgid "Dark"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:212
-msgid "Light"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:212
-msgid "Follow System"
-msgstr ""
-
-#: packages/weather/contents/ui/config/ConfigGeneral.qml:218
-msgid ""
-"Dark: Nothing's signature dark aesthetic. Light: Nothing's light palette. "
-"Follow System: Uses your KDE color scheme."
-msgstr ""
-
 #: packages/weather/contents/ui/VariantSelector.qml:24
 msgid "Choose Style"
 msgstr ""
 
+#: packages/weather/contents/ui/VariantSelector.qml:34
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:54
+msgid "Full"
+msgstr ""
+
+#: packages/weather/contents/ui/VariantSelector.qml:35
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:90
+msgid "Circular"
+msgstr ""
+
+#: packages/weather/contents/ui/VariantSelector.qml:36
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:126
+msgid "Circle Pages"
+msgstr ""
+
 #: packages/weather/contents/ui/VariantSelector.qml:62
 msgid "can be changed later in configuration"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:21
+msgid "Style:"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:149
+msgid "Location:"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:155
+msgid "e.g., Victoria, Canada or New York, US"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:161
+msgid ""
+"Enter a city name, optionally followed by a country (e.g., 'Victoria, "
+"Canada'). The widget will automatically find the coordinates."
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:178
+msgid "Temperature Unit:"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:184
+msgid "Celsius (°C)"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:184
+msgid "Fahrenheit (°F)"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:190
+msgid "Choose between Celsius and Fahrenheit for temperature display."
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:207
+msgid "Theme:"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:213
+msgid "Dark"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:213
+msgid "Light"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:213
+msgid "Follow System"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:219
+msgid ""
+"Dark: Nothing's signature dark aesthetic. Light: Nothing's light palette. "
+"Follow System: Matches your KDE dark/light scheme."
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:229
+msgid "Use system accent color"
+msgstr ""
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:234
+msgid ""
+"Replace Nothing's red accent with your KDE system highlight color while "
+"keeping the Nothing aesthetic."
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:36
+msgid "Loading..."
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:114
+msgid "Clear"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:115
+msgid "Mainly Clear"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:116
+msgid "Partly Cloudy"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:117
+msgid "Overcast"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:118
+msgid "Fog"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:119
+msgid "Depositing Rime Fog"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:120
+msgid "Light Drizzle"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:121
+msgid "Drizzle"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:122
+msgid "Dense Drizzle"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:123
+msgid "Light Freezing Drizzle"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:124
+msgid "Freezing Drizzle"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:125
+msgid "Slight Rain"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:126
+msgid "Rain"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:127
+msgid "Heavy Rain"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:128
+msgid "Light Freezing Rain"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:129
+msgid "Freezing Rain"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:130
+msgid "Slight Snow"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:131
+msgid "Snow"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:132
+msgid "Heavy Snow"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:133
+msgid "Snow Grains"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:134
+msgid "Slight Rain Showers"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:135
+msgid "Rain Showers"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:136
+msgid "Violent Rain Showers"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:137
+msgid "Slight Snow Showers"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:138
+msgid "Heavy Snow Showers"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:139
+msgid "Thunderstorm"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:140
+msgid "Thunderstorm with Hail"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:141
+msgid "Heavy Thunderstorm with Hail"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:142
+msgid "Unknown"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "SUN"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "MON"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "TUE"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "WED"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "THU"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "FRI"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "SAT"
+msgstr ""
+
+#: packages/weather/contents/ui/main.qml:285
+#: packages/weather/contents/ui/main.qml:288
+msgid "Location not found"
+msgstr ""
+
+#: packages/weather/contents/config/config.qml:6
+msgid "General"
 msgstr ""

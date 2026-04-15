@@ -1,0 +1,49 @@
+# Nothing Date - Translation Template
+# This file is put in the public domain.
+# Translators:
+#
+# SPDX-FileCopyrightText: 2026 Gianpaolo <pingurussi@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.jaxparrow07.nothingkdewidgets.date 1.1\n"
+"Report-Msgid-Bugs-To: https://github.com/jaxparrow07/nothing-kde-widgets/issue"
+"s\n"
+"POT-Creation-Date: 2026-02-13 00:57+0530\n"
+"PO-Revision-Date: 2026-04-15 18:21+0200\n"
+"Last-Translator: Gianpaolo <pingurussi@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: packages/date/contents/config/config.qml:6
+msgid "General"
+msgstr "Generale"
+
+#: packages/date/contents/ui/config/ConfigGeneral.qml:16
+msgid "Theme:"
+msgstr "Tema:"
+
+#: packages/date/contents/ui/config/ConfigGeneral.qml:22
+msgid "Dark"
+msgstr "Scuro"
+
+#: packages/date/contents/ui/config/ConfigGeneral.qml:22
+msgid "Light"
+msgstr "Chiaro"
+
+#: packages/date/contents/ui/config/ConfigGeneral.qml:22
+msgid "Follow System"
+msgstr "Segui Sistema"
+
+#: packages/date/contents/ui/config/ConfigGeneral.qml:28
+msgid ""
+"Dark: Nothing's signature dark aesthetic. Light: Nothing's light palette. "
+"Follow System: Uses your KDE color scheme."
+msgstr ""
+"Scuro: l’inconfondibile estetica scura di Nothing."
+"Chiaro: la palette chiara di Nothing."
+"Segui Sistema: usa lo schema colori di KDE."

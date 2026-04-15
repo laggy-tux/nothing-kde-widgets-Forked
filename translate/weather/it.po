@@ -1,0 +1,278 @@
+# Nothing Weather - Translation Template
+# This file is put in the public domain.
+# Translators:
+# SPDX-FileCopyrightText: 2026 Gianpaolo <pingurussi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.jaxparrow07.nothingkdewidgets.weather 2."
+"0\n"
+"Report-Msgid-Bugs-To: https://github.com/jaxparrow07/nothing-kde-widgets/issue"
+"s\n"
+"POT-Creation-Date: 2026-04-10 17:06+0000\n"
+"PO-Revision-Date: 2026-04-15 19:28+0200\n"
+"Last-Translator: Gianpaolo <pingurussi@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: packages/weather/contents/ui/VariantSelector.qml:24
+#, fuzzy
+msgid "Choose Style"
+msgstr "Scegli Stile"
+
+#: packages/weather/contents/ui/VariantSelector.qml:34
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:54
+msgid "Full"
+msgstr "Completo"
+
+#: packages/weather/contents/ui/VariantSelector.qml:35
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:90
+msgid "Circular"
+msgstr "Circolare"
+
+#: packages/weather/contents/ui/VariantSelector.qml:36
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:126
+msgid "Circle Pages"
+msgstr "Pagine Circolari"
+
+#: packages/weather/contents/ui/VariantSelector.qml:62
+msgid "can be changed later in configuration"
+msgstr "Può essere cambiato dopo nella configurazione"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:21
+msgid "Style:"
+msgstr "Stile:"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:149
+msgid "Location:"
+msgstr "Località:"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:155
+msgid "e.g., Victoria, Canada or New York, US"
+msgstr "es., Victoria, Canada o New York, US"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:161
+msgid ""
+"Enter a city name, optionally followed by a country (e.g., 'Victoria, "
+"Canada'). The widget will automatically find the coordinates."
+msgstr ""
+"Inserisci il nome di una città, seguito opzionalmente da un paese (es. ‘Victor"
+"ia, "
+"Canada’). Il widget troverà automaticamente le coordinate."
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:178
+msgid "Temperature Unit:"
+msgstr "Unità di temperatura:"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:184
+msgid "Celsius (°C)"
+msgstr "Celsius (°C)"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:184
+msgid "Fahrenheit (°F)"
+msgstr "Fahrenheit (°F)"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:190
+msgid "Choose between Celsius and Fahrenheit for temperature display."
+msgstr ""
+"Scegli tra Celsius e Fahrenheit per la visualizzazione della temperatura."
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:207
+msgid "Theme:"
+msgstr "Tema:"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:213
+msgid "Dark"
+msgstr "Scuro"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:213
+msgid "Light"
+msgstr "Chiaro"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:213
+msgid "Follow System"
+msgstr "Segui sistema"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:219
+msgid ""
+"Dark: Nothing's signature dark aesthetic. Light: Nothing's light palette. "
+"Follow System: Matches your KDE dark/light scheme."
+msgstr ""
+"Scuro: L’estetica scura tipica di Nothing. Chiaro: La palette chiara di Nothin"
+"g."
+"Segui Sistema: Segue lo schema chiaro/scuro di KDE."
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:229
+msgid "Use system accent color"
+msgstr "Usa il colore di accento del sistema"
+
+#: packages/weather/contents/ui/config/ConfigGeneral.qml:234
+msgid ""
+"Replace Nothing's red accent with your KDE system highlight color while "
+"keeping the Nothing aesthetic."
+msgstr ""
+"Sostituisci il rosso di Nothing con il colore di evidenziazione del sistema KD"
+"E"
+"mantenendo l’estetica di Nothing."
+
+#: packages/weather/contents/ui/main.qml:36
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: packages/weather/contents/ui/main.qml:114
+msgid "Clear"
+msgstr "Sereno"
+
+#: packages/weather/contents/ui/main.qml:115
+msgid "Mainly Clear"
+msgstr "Prevalentemente Sereno"
+
+#: packages/weather/contents/ui/main.qml:116
+msgid "Partly Cloudy"
+msgstr "Parzialmente Nuvoloso"
+
+#: packages/weather/contents/ui/main.qml:117
+msgid "Overcast"
+msgstr "Coperto"
+
+#: packages/weather/contents/ui/main.qml:118
+msgid "Fog"
+msgstr "Nebbia"
+
+#: packages/weather/contents/ui/main.qml:119
+msgid "Depositing Rime Fog"
+msgstr "Galaverna"
+
+#: packages/weather/contents/ui/main.qml:120
+msgid "Light Drizzle"
+msgstr "Pioviggine Leggera"
+
+#: packages/weather/contents/ui/main.qml:121
+msgid "Drizzle"
+msgstr "Pioviggine"
+
+#: packages/weather/contents/ui/main.qml:122
+msgid "Dense Drizzle"
+msgstr "Pioviggine Fitta"
+
+#: packages/weather/contents/ui/main.qml:123
+msgid "Light Freezing Drizzle"
+msgstr "Pioviggine Gelata Leggera"
+
+#: packages/weather/contents/ui/main.qml:124
+msgid "Freezing Drizzle"
+msgstr "Pioviggine Gelata"
+
+#: packages/weather/contents/ui/main.qml:125
+msgid "Slight Rain"
+msgstr "Pioggia Leggera"
+
+#: packages/weather/contents/ui/main.qml:126
+msgid "Rain"
+msgstr "Pioggia"
+
+#: packages/weather/contents/ui/main.qml:127
+msgid "Heavy Rain"
+msgstr "Pioggia Forte"
+
+#: packages/weather/contents/ui/main.qml:128
+msgid "Light Freezing Rain"
+msgstr "Pioggia Gelata Debole"
+
+#: packages/weather/contents/ui/main.qml:129
+msgid "Freezing Rain"
+msgstr "Pioggia Gelata"
+
+#: packages/weather/contents/ui/main.qml:130
+msgid "Slight Snow"
+msgstr "Neve Debole"
+
+#: packages/weather/contents/ui/main.qml:131
+msgid "Snow"
+msgstr "Neve"
+
+#: packages/weather/contents/ui/main.qml:132
+msgid "Heavy Snow"
+msgstr "Neve Forte"
+
+#: packages/weather/contents/ui/main.qml:133
+msgid "Snow Grains"
+msgstr "Granuli di Neve"
+
+#: packages/weather/contents/ui/main.qml:134
+msgid "Slight Rain Showers"
+msgstr "Rovesci di Pioggia Deboli"
+
+#: packages/weather/contents/ui/main.qml:135
+msgid "Rain Showers"
+msgstr "Rovesci di Pioggia"
+
+#: packages/weather/contents/ui/main.qml:136
+msgid "Violent Rain Showers"
+msgstr "Rovesci di Pioggia Intensi"
+
+#: packages/weather/contents/ui/main.qml:137
+msgid "Slight Snow Showers"
+msgstr "Rovesci di Neve Deboli"
+
+#: packages/weather/contents/ui/main.qml:138
+msgid "Heavy Snow Showers"
+msgstr "Rovesci di Neve Forti"
+
+#: packages/weather/contents/ui/main.qml:139
+msgid "Thunderstorm"
+msgstr "Tempesta"
+
+#: packages/weather/contents/ui/main.qml:140
+msgid "Thunderstorm with Hail"
+msgstr "Temporale con grandine"
+
+#: packages/weather/contents/ui/main.qml:141
+msgid "Heavy Thunderstorm with Hail"
+msgstr "Forte Temporale con Grandine"
+
+#: packages/weather/contents/ui/main.qml:142
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "SUN"
+msgstr "DOM"
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "MON"
+msgstr "LUN"
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "TUE"
+msgstr "MAR"
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "WED"
+msgstr "MER"
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "THU"
+msgstr "GIO"
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "FRI"
+msgstr "VEN"
+
+#: packages/weather/contents/ui/main.qml:149
+msgid "SAT"
+msgstr "SAB"
+
+#: packages/weather/contents/ui/main.qml:285
+#: packages/weather/contents/ui/main.qml:288
+msgid "Location not found"
+msgstr "Posizione non trovata"
+
+#: packages/weather/contents/config/config.qml:6
+msgid "General"
+msgstr "Generale"

@@ -1,0 +1,132 @@
+# Nothing Digital Clock Large - Translation Template
+# This file is put in the public domain.
+# Translators:
+#
+# SPDX-FileCopyrightText: 2026 Gianpaolo <pingurussi@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.jaxparrow07.nothingkdewidgets.digitalclo"
+"cklarge 1.1\n"
+"Report-Msgid-Bugs-To: https://github.com/jaxparrow07/nothing-kde-widgets/issue"
+"s\n"
+"POT-Creation-Date: 2026-02-13 00:57+0530\n"
+"PO-Revision-Date: 2026-04-15 19:39+0200\n"
+"Last-Translator: Gianpaolo <pingurussi@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: packages/clock-digital-large/contents/config/config.qml:6
+msgid "Appearance"
+msgstr "Apparenza"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:20
+msgid "Font Style:"
+msgstr "Stile Font:"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:26
+msgid "Dotted"
+msgstr "Punteggiato"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:26
+msgid "Dot Matrix"
+msgstr "Matrice di punti"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:26
+msgid "Serif"
+msgstr "Serif"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:26
+msgid "Segmented"
+msgstr "Segmentato"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:26
+msgid "Segmented Sharp"
+msgstr "Segmentato con bordi netti"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:32
+msgid "Dotted: Bigger dots, cleaner look"
+msgstr "Punteggiato: punti più grandi, aspetto più pulito."
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:40
+msgid "Dot Matrix: Nothing's iconic dot matrix font"
+msgstr "Matrice di punti: l’iconico carattere a matrice di punti di Nothing."
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:48
+msgid "Serif: Nothing's new serif font"
+msgstr "Serif: il nuovo font di Nothing."
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:56
+msgid "Segmented: Subway board inspired font that nothing designed"
+msgstr ""
+"Segmentato: carattere ispirato ai tabelloni della metropolitana, progettato da"
+" Nothing."
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:64
+msgid "Segmented Sharp: Segmented but sharper"
+msgstr ""
+"Segmentato con bordi netti: versione del carattere segmentato con contorni più"
+" netti."
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:72
+msgid "NOTE: Segmented fonts don't have separator (:)"
+msgstr "NOTA: I font segmentati non hanno i separatori (:)"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:90
+msgid "Show Date"
+msgstr "Mostra Data"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:95
+msgid "Display the current date above the time (e.g., \"Thu, 31 Jan\")"
+msgstr "Mostra la data corrente sopra l’ora (es. “Gio, 31 Gen”)."
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:105
+msgid "Use 24-Hour Format"
+msgstr "Usa il formato a 24 ore"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:110
+msgid ""
+"Show time in 24-hour format (e.g., 14:30) instead of 12-hour format (e.g., "
+"2:30)"
+msgstr ""
+"Mostra il tempo in un formato a 24 ore (es. 14:30) invece del formato 12 ore "
+" (es. 2:30)"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:127
+msgid "Use Darker Font Color"
+msgstr "Usa un colore del testo più scuro"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:132
+msgid "Use a darker font color for better visibility on lighter backgrounds"
+msgstr ""
+"Usa un colore del testo più scuro per una migliore leggibilità su sfondi chiar"
+"i"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:148
+msgid "Theme:"
+msgstr "Tema:"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:154
+msgid "Dark"
+msgstr "Scuro"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:154
+msgid "Light"
+msgstr "Chiaro"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:154
+msgid "Follow System"
+msgstr "Segui Sistema"
+
+#: packages/clock-digital-large/contents/ui/config/ConfigAppearance.qml:160
+msgid ""
+"Dark: Nothing's signature dark aesthetic. Light: Nothing's light palette. "
+"Follow System: Uses your KDE color scheme."
+msgstr ""
+"Scuro: l’inconfondibile estetica scura di Nothing. Chiaro: la palette chiara d"
+"i Nothing."
+"Segui Sistema: usa lo schema colori di KDE."

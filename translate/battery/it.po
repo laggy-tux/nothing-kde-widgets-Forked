@@ -1,0 +1,114 @@
+# Nothing Devices and Battery - Translation Template
+# Translators:
+# 2026 Gianpaolo <pingurussi@gmail.com>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.jaxparrow07.nothingkdewidgets.battery 1."
+"1\n"
+"Report-Msgid-Bugs-To: https://github.com/jaxparrow07/nothing-kde-widgets/issue"
+"s\n"
+"POT-Creation-Date: 2026-02-13 00:58+0530\n"
+"PO-Revision-Date: 2026-04-15 18:59+0200\n"
+"Last-Translator: Gianpaolo <pingurussi@gmail.com>\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: packages/battery/contents/config/config.qml:6
+msgid "General"
+msgstr "Generale"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:41
+msgid "Theme"
+msgstr "Tema"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:46
+msgid "Theme:"
+msgstr "Tema:"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:47
+msgid "Dark"
+msgstr "Scuro"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:47
+msgid "Light"
+msgstr "Chiaro"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:47
+msgid "Follow System"
+msgstr "Segui Sistema"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:53
+msgid "Basic Settings"
+msgstr "Impostazioni Basilari"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:58
+msgid "Device Type:"
+msgstr "Tipo di Dispositivo"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:62
+msgid "Laptop"
+msgstr "Laptop"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:63
+msgid "Desktop PC"
+msgstr "PC Desktop"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:78
+msgid "Update Interval (ms):"
+msgstr "Intervallo Aggiornamento (ms):"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:88
+msgid "Custom Device Icons"
+msgstr "Icone Dispositivo Personalizzate"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:93
+msgid "Icon Mappings:"
+msgstr "Mappature Icone"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:98
+msgid "Add custom icon mappings based on device name patterns"
+msgstr ""
+"Aggiungi mappature di icone personalizzate basate sui pattern del nome del dis"
+"positivo"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:120
+msgid "Device name pattern"
+msgstr "Pattern del nome del dispositivo"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:192
+msgid "Add Mapping"
+msgstr "Aggiungi mappatura"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:206
+msgid "Device History"
+msgstr "Cronologia Dispositivo"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:211
+msgid "Previously Connected:"
+msgstr "Precedentemente connessi:"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:215
+msgid "Bluetooth devices that have been connected to this system"
+msgstr "Dispositivi Bluetooth che sono stati connessi a questo sistema"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:250
+msgid "Quick Add"
+msgstr "Aggiunta veloce"
+
+#: packages/battery/contents/ui/config/ConfigGeneral.qml:266
+msgid "No devices found in history"
+msgstr "Nessun dispositivo trovato nella cronologia"
+
+#: packages/battery/contents/ui/main.qml:673
+msgid "PC"
+msgstr "PC"
+
+#: packages/battery/contents/ui/main.qml:710
+msgid "Detecting Battery..."
+msgstr "Rilevamento Batteria..."

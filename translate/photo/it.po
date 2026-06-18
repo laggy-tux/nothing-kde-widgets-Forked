@@ -1,0 +1,175 @@
+# Nothing Photo - Translation Template
+# This file is put in the public domain.
+# Translators:
+# 2026 Gianpaolo <pingurussi@gmail.com>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.jaxparrow07.nothingkdewidgets.photo 1.1"
+"\n"
+"Report-Msgid-Bugs-To: https://github.com/jaxparrow07/nothing-kde-widgets/issue"
+"s\n"
+"POT-Creation-Date: 2026-02-13 00:57+0530\n"
+"PO-Revision-Date: 2026-04-15 19:43+0200\n"
+"Last-Translator: Gianpaolo <pingurussi@gmail.com>\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: packages/photo/contents/config/config.qml:6
+msgid "Image"
+msgstr "Immagine"
+
+#: packages/photo/contents/config/config.qml:11
+msgid "Appearance"
+msgstr "Apparenza"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:19
+msgid "Border Settings"
+msgstr "Impostazione dei Bordi"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:27
+msgid "Enable Borders"
+msgstr "Abilita Bordi"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:32
+msgid ""
+"Adds margin around the image to reveal the dark background, creating a frame "
+"effect"
+msgstr ""
+"Aggiunge un margine attorno all’immagine, facendo emergere lo sfondo scuro e c"
+"reando un "
+"effetto cornice."
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:45
+msgid "Border Size:"
+msgstr "Dimensione Bordo:"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:73
+msgid "Shape Settings"
+msgstr "Impostazioni Forma"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:81
+msgid "Pill Shape"
+msgstr "Forma a Pillola"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:86
+msgid ""
+"Automatically creates a circle (if square) or pill shape (if rectangular). "
+"When disabled, uses standard rounded corners."
+msgstr ""
+"Crea automaticamente un cerchio (se l’immagine è quadrata) oppure una forma a "
+"pillola (se è rettangolare). Quando è disattivato, utilizza i normali angoli a"
+"rrotondati."
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:102
+msgid "Theme"
+msgstr "Tema"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:109
+msgid "Theme:"
+msgstr "Tema:"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:115
+msgid "Dark"
+msgstr "Scuro"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:115
+msgid "Light"
+msgstr "Chiaro"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:115
+msgid "Follow System"
+msgstr "Segui Sistema"
+
+#: packages/photo/contents/ui/config/ConfigAppearance.qml:121
+msgid ""
+"Dark: Nothing's signature dark aesthetic. Light: Nothing's light palette. "
+"Follow System: Uses your KDE color scheme."
+msgstr ""
+"Scuro: l’estetica scura tipica di Nothing. Chiaro: La palette chiara di Nothin"
+"g. "
+"Segui Sistema: Segue lo schema chiaro/scuro di KDE."
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:19
+msgid "Image Source"
+msgstr "Sorgente Immagine"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:31
+msgid "Select an image file..."
+msgstr "Seleziona un file immagine..."
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:36
+msgid "Browse..."
+msgstr "Sfoglia..."
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:42
+msgid "Select a photo to display in the widget (PNG, JPG, JPEG, WebP)"
+msgstr "Seleziona una foto da mostrare nel widget (PNG, JPG, JPEG, WebP)"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:58
+msgid "Image Fit Mode"
+msgstr "Modalità di adattamento dell’immagine"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:68
+msgid "Fit Mode:"
+msgstr "Modalità di adattamento dell’immagine:"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:74
+msgid "Crop (Fill Frame)"
+msgstr "Ritaglia (Riempi Cornice)"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:74
+msgid "Fit (Show All)"
+msgstr "Adatta (mostra tutto)"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:74
+msgid "Stretch"
+msgstr "Estendi"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:80
+msgid ""
+"Crop: Fills the frame completely, may crop parts of the image\n"
+"Fit: Shows the entire image, may have letterboxing\n"
+"Stretch: Fills frame completely, may distort the image"
+msgstr ""
+"Ritaglia: riempie completamente la cornice, può tagliare parti dell’immagine."
+"\n"
+"Adatta: mostra l’intera immagine, possono comparire barre laterali.\n"
+"Estendi: riempie completamente la cornice, può deformare l’immagine."
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:96
+msgid "Effects"
+msgstr "Effetti"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:104
+msgid "Grayscale"
+msgstr "Toni di grigi"
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:109
+msgid "Convert the image to black and white (grayscale)"
+msgstr "Converte l’immagine in bianco e nero (toni di grigi)."
+
+#: packages/photo/contents/ui/config/ConfigImage.qml:123
+msgid "Select an Image"
+msgstr "Seleziona un'immagine"
+
+#: packages/photo/contents/ui/main.qml:184
+msgid "No Image"
+msgstr "Nessuna immagine"
+
+#: packages/photo/contents/ui/main.qml:193
+msgid "Right-click to configure"
+msgstr "Tasto destro per configurare"
+
+#: packages/photo/contents/ui/main.qml:225
+msgid "Image Error"
+msgstr "Errore Immagine"
+
+#: packages/photo/contents/ui/main.qml:234
+msgid "Failed to load image"
+msgstr "Caricamento dell'immagine fallito"

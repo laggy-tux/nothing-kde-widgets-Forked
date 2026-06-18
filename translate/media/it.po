@@ -1,0 +1,50 @@
+# Nothing Media - Translation Template
+# This file is put in the public domain.
+# Translators:
+# 2026 Gianpaolo <pingurussi@gmail.com>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_com.jaxparrow07.nothingkdewidgets.media 1.1"
+"\n"
+"Report-Msgid-Bugs-To: https://github.com/jaxparrow07/nothing-kde-widgets/issue"
+"s\n"
+"POT-Creation-Date: 2026-02-13 00:57+0530\n"
+"PO-Revision-Date: 2026-04-15 19:28+0200\n"
+"Last-Translator: Gianpaolo <pingurussi@gmail.com>\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: packages/media/contents/config/config.qml:6
+msgid "General"
+msgstr "Generale"
+
+#: packages/media/contents/ui/config/ConfigGeneral.qml:16
+msgid "Theme:"
+msgstr "Tema:"
+
+#: packages/media/contents/ui/config/ConfigGeneral.qml:22
+msgid "Dark"
+msgstr "Scuro"
+
+#: packages/media/contents/ui/config/ConfigGeneral.qml:22
+msgid "Light"
+msgstr "Chiaro"
+
+#: packages/media/contents/ui/config/ConfigGeneral.qml:22
+msgid "Follow System"
+msgstr "Segui Sistema"
+
+#: packages/media/contents/ui/config/ConfigGeneral.qml:28
+msgid ""
+"Dark: Nothing's signature dark aesthetic. Light: Nothing's light palette. "
+"Follow System: Uses your KDE color scheme."
+msgstr ""
+"Scuro: L’estetica scura tipica di Nothing. Chiaro: La palette chiara di Nothin"
+"g."
+"Segui Sistema: Segue lo schema chiaro/scuro di KDE."
